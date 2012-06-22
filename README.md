@@ -1,6 +1,6 @@
 # jekyll_static_comments #
 
-This plugin was orinally based on [static comments][01] by Matt Palmer but I rewrote nearly everything, in order to discover a bit Ruby and having the following features:
+This plugin was originally based on [static comments][01] by Matt Palmer but I rewrote nearly everything, in order to discover a bit Ruby and having the following features:
 
 * write comment files like post files
 * allow generation of comments atom feed
