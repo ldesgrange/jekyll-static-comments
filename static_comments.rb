@@ -75,7 +75,7 @@ module StaticComments
     def <=>(other)
       cmp = self.date <=> other.date
       if 0 == cmp
-        cmp = self.post.slug <=> other.post.slug
+        cmp = self.id <=> other.id
       end
       return cmp
     end
@@ -108,6 +108,6 @@ module StaticComments
       comments << comment
     end
 
-    comments
+    comments.sort
   end
 end
